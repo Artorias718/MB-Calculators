@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MB-Calculators/static/css/main.bf41c37b.css",
+    "main.js": "/MB-Calculators/static/js/main.21f7d4de.js",
+    "static/js/453.07c570cb.chunk.js": "/MB-Calculators/static/js/453.07c570cb.chunk.js",
+    "static/media/sic.png": "/MB-Calculators/static/media/sic.42af7ce999b2657afeb6.png",
+    "index.html": "/MB-Calculators/index.html",
+    "main.bf41c37b.css.map": "/MB-Calculators/static/css/main.bf41c37b.css.map",
+    "main.21f7d4de.js.map": "/MB-Calculators/static/js/main.21f7d4de.js.map",
+    "453.07c570cb.chunk.js.map": "/MB-Calculators/static/js/453.07c570cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf41c37b.css",
+    "static/js/main.21f7d4de.js"
+  ]
+}
