@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: -0;
+}
+
+.container-padding {
+  padding-bottom: 160px; /* Spazio per il footer */
+  max-width: 1300px; /* Imposta la larghezza massima */
+  /* max-height: 10px; */
+  margin: 0 auto; /* Centra il contenitore */
+}
+
+
+.homepage
+{
+  padding-bottom: 160px; /* Space for the footer */
+  max-width: 5000px; /* Full width */
+  max-height: 100%;
+  margin: 0; /* Remove auto margin to fill entire width */
+  position: relative; /* Relative positioning */
+  /*background-image: url('./assets/sic.png'); /* Correct image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  min-height: 100vh; /* Ensure it covers at least the height of the viewport */
+  background-color: lightgreen;
+
+}
+
+.App{
+  padding-bottom: 160px; /* Space for the footer */
+  max-width: 100%; /* Full width */
+  margin: 0; /* Remove auto margin to fill entire width */
+  position: relative; /* Relative positioning */
+  background-image: url('./assets/sic.png'); /* Correct image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  min-height: 100vh; /* Ensure it covers at least the height of the viewport */
+}
+
+html, body {
+  margin: 0; /* Rimuove margini predefiniti */
+  padding: 0; /* Rimuove padding predefiniti */
+  width: 100%; /* Assicura che occupino tutta la larghezza */
+  height: 100%; /* Assicura che occupino tutta l'altezza */
+}
+
+/* Contenitore principale che limita la larghezza di altre sezioni */
+.container {
+  max-width: 1200px; /* Larghezza massima per il contenitore */
+  margin: 0 auto; /* Centra il contenitore */
+}
+
+/* Stile specifico per la homepage */
+.homepage {
+  padding-bottom: 160px; /* Spazio per il footer */
+  position: relative; /* Posizionamento relativo */
+  width: 100vw; /* Occupare l'intera larghezza della finestra */
+  height: 100vh; /* Occupare l'intera altezza della finestra */
+  margin-left: calc(-50vw + 50%); /* Rimuove l'effetto del contenitore */
+  margin-right: calc(-50vw + 50%); /* Rimuove l'effetto del contenitore */
+  margin-top: -50px; /* Mantieni il margine superiore a 0 */
+  margin-bottom: -110px; /* Mantieni il margine inferiore a 0 */
+  background-image: url('./assets/sic.png'); /* Correct image path */
+  min-height: 100vh; /* Copre almeno l'altezza della viewport */
+  background-size: cover; /* Copre l'intera area */
+  background-position: center; /* Centra l'immagine */
+  /* background-image: url('./assets/sic.png'); */ /* Percorso immagine di sfondo */
+}
