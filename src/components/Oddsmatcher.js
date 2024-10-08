@@ -53,10 +53,10 @@ const RealTimeCalculator = () => {
       const profitValue = (backStakeNum * (backOddsNum - 1)) - exchangeLoss;
       setProfit(profitValue.toFixed(2));
 
-      // Calcolo del rating
-      //const calculatedRating = ((backOddsNum) / (layOddsNum)) * 100;
+      // Calcolo del rating 
+      const calculatedRating = ((backStakeNum + profitValue) / (backStakeNum)) * 100;
 
-      const calculatedRating = (calculatedLiability - (calculatedLiability*layCommissionNum))/backStake * 100;
+      //const calculatedRating = (calculatedLiability - (calculatedLiability*layCommissionNum))/backStake * 100;
 
 
       setRating(calculatedRating.toFixed(2));
